@@ -9,7 +9,7 @@ $conn = mysqli_connect($server, $username, $password, $db_name);
 
 
 
-    $query=mysqli_query($conn,"SELECT * FROM heroku_18b860342c606ec.dummy");
+    $query=mysqli_query($conn,"SELECT * FROM dummy.a");
     if($query)
     {
         while($row=mysqli_fetch_array($query))
